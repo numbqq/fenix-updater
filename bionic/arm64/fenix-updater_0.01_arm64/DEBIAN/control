@@ -1,0 +1,11 @@
+Package: fenix-updater
+Version: 0.01
+Section: admin
+Priority: optional
+Architecture: arm64
+Depends: aml-npu
+Recommends: 
+Homepage: https://www.khadas.com
+Installed-Size: 38730
+Maintainer: Nick Xie <nick@khadas.com>
+Description: Fenix Updater
