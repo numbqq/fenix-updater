@@ -3,7 +3,7 @@ Version: 0.01
 Section: admin
 Priority: optional
 Architecture: arm64
-Depends: aml-npu
+Depends: aml-npu, gstreamer-aml, libplayer-aml, opencv3
 Recommends: 
 Homepage: https://www.khadas.com
 Installed-Size: 38730
