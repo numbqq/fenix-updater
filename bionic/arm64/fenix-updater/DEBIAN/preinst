@@ -1,6 +1,0 @@
-#!/bin/bash
-
-# exit if we are running chroot
-if [ "$(stat -c %d:%i /)" != "$(stat -c %d:%i /proc/1/root/.)" ]; then exit 0; fi
-
-exit 0
